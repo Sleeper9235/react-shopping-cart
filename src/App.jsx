@@ -1,10 +1,10 @@
-
-
+import Shop from "./components/Shop/Shop";
+import { inventoryData } from './data/data'
 
 const App = () => {
 
   return (
-    <h1>Hello world!</h1>
+    <Shop />
   );
 }
 
